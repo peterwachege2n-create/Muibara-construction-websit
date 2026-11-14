@@ -1,0 +1,14 @@
+
+{
+  "id": "/Muibara-construction-websit/",
+  "name": "Muibara Construction",
+  "short_name": "Muibara",
+  "description": "Muibara Construction Limited official website",
+  "start_url": "/Muibara-construction-websit/",
+  "scope": "/Muibara-construction-websit/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10243a",
+  "theme_color": "#10243a",
+  "icons": []
+}
