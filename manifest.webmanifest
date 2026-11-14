@@ -1,9 +1,8 @@
-
 {
   "id": "/Muibara-construction-websit/",
   "name": "Muibara Construction",
   "short_name": "Muibara",
-  "description": "Muibara Construction Limited official website",
+  "description": "Muibara Construction Limited official app",
   "start_url": "/Muibara-construction-websit/",
   "scope": "/Muibara-construction-websit/",
   "display": "standalone",
@@ -11,18 +10,11 @@
   "background_color": "#10243a",
   "theme_color": "#10243a",
   "icons": [
-  {
-  "icons": [
-  {
-    "src": "/Muibara-construction-websit/muibara%20logo.jpg",
-    "sizes": "512x512",
-    "type": "image/jpeg",
-    "purpose": "any"
-  }
-]
-    
-    
-    "purpose": "any"
-  }
-]
+    {
+      "src": "/Muibara-construction-websit/muibara%20logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
 }
