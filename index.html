@@ -77,4 +77,19 @@ function openWhatsApp(message){if(WHATSAPP_NUMBER==="ADD_OFFICIAL_NUMBER"){toast
 document.getElementById('consultForm').addEventListener('submit',e=>{e.preventDefault();const data={name:document.getElementById('cname').value.trim(),phone:document.getElementById('phone').value.trim(),county:document.getElementById('county').value.trim(),type:document.getElementById('projectType').value,details:document.getElementById('details').value.trim()};const msg=`Hello Muibara Construction, I would like a consultation.\nName: ${data.name}\nPhone: ${data.phone}\nCounty: ${data.county}\nProject: ${data.type}\nDetails: ${data.details}`;openWhatsApp(msg)});
 document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)m.classList.remove('open')}));
 </script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(
+      "/Muibara-construction-websit/sw.js"
+    ).then(() => {
+      console.log("Muibara app ready");
+    }).catch((error) => {
+      console.error("Service worker error:", error);
+    });
+  });
+}
+</script>
+
 </body></html>
