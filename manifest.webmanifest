@@ -10,5 +10,12 @@
   "orientation": "portrait",
   "background_color": "#10243a",
   "theme_color": "#10243a",
-  "icons": []
+  "icons": [
+  {
+    "src": "/Muibara-construction-websit/muibara%20logo.jpg",
+    "sizes": "any",
+    "type": "image/jpeg",
+    "purpose": "any"
+  }
+]
 }
